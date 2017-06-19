@@ -1,0 +1,740 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		199490F3538387D23C22735B /* libPods-ace-drawing-demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FCE72C7883CEEBD144433A22 /* libPods-ace-drawing-demo.a */; };
+		A3B7BCFE5409AEB3D6ADAE30 /* libPods-ace-drawing-demoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C786F67B544D6DEBB4B6EE1 /* libPods-ace-drawing-demoUITests.a */; };
+		A8D8462A67A06AFE38D0B6DF /* libPods-ace-drawing-demoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 01C3B03858CC891B47CA2F74 /* libPods-ace-drawing-demoTests.a */; };
+		D8ACD2371EF544370080E858 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ACD2361EF544370080E858 /* main.m */; };
+		D8ACD23A1EF544370080E858 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ACD2391EF544370080E858 /* AppDelegate.m */; };
+		D8ACD23D1EF544370080E858 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ACD23C1EF544370080E858 /* ViewController.m */; };
+		D8ACD2401EF544370080E858 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8ACD23E1EF544370080E858 /* Main.storyboard */; };
+		D8ACD2421EF544370080E858 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8ACD2411EF544370080E858 /* Assets.xcassets */; };
+		D8ACD2451EF544370080E858 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8ACD2431EF544370080E858 /* LaunchScreen.storyboard */; };
+		D8ACD2501EF544370080E858 /* ace_drawing_demoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ACD24F1EF544370080E858 /* ace_drawing_demoTests.m */; };
+		D8ACD25B1EF544370080E858 /* ace_drawing_demoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ACD25A1EF544370080E858 /* ace_drawing_demoUITests.m */; };
+		D8ACD2691EF551600080E858 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8ACD2681EF551600080E858 /* QuartzCore.framework */; };
+		D8ACD26B1EF551650080E858 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8ACD26A1EF551650080E858 /* AVFoundation.framework */; };
+		D8ACD27F1EF554DA0080E858 /* ImageDrawTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ACD27E1EF554DA0080E858 /* ImageDrawTool.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D8ACD24C1EF544370080E858 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8ACD22A1EF544360080E858 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8ACD2311EF544370080E858;
+			remoteInfo = "ace-drawing-demo";
+		};
+		D8ACD2571EF544370080E858 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8ACD22A1EF544360080E858 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8ACD2311EF544370080E858;
+			remoteInfo = "ace-drawing-demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01C3B03858CC891B47CA2F74 /* libPods-ace-drawing-demoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ace-drawing-demoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FCF4E9EAF241064CDE58788 /* Pods-ace-drawing-demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ace-drawing-demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ace-drawing-demo/Pods-ace-drawing-demo.release.xcconfig"; sourceTree = "<group>"; };
+		12FEF1B4F66A2B593633629A /* Pods-ace-drawing-demoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ace-drawing-demoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ace-drawing-demoUITests/Pods-ace-drawing-demoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		844A5C7A038917318EB891A2 /* Pods-ace-drawing-demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ace-drawing-demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ace-drawing-demo/Pods-ace-drawing-demo.debug.xcconfig"; sourceTree = "<group>"; };
+		8C786F67B544D6DEBB4B6EE1 /* libPods-ace-drawing-demoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ace-drawing-demoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		966E0202E17B48CFF512B5C8 /* Pods-ace-drawing-demoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ace-drawing-demoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ace-drawing-demoTests/Pods-ace-drawing-demoTests.release.xcconfig"; sourceTree = "<group>"; };
+		A161D3E117C63161E8190E74 /* Pods-ace-drawing-demoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ace-drawing-demoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ace-drawing-demoUITests/Pods-ace-drawing-demoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A9718C86F2BA7826F133D70C /* Pods-ace-drawing-demoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ace-drawing-demoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ace-drawing-demoTests/Pods-ace-drawing-demoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D8ACD2321EF544370080E858 /* ace-drawing-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ace-drawing-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8ACD2361EF544370080E858 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D8ACD2381EF544370080E858 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D8ACD2391EF544370080E858 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D8ACD23B1EF544370080E858 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D8ACD23C1EF544370080E858 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D8ACD23F1EF544370080E858 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D8ACD2411EF544370080E858 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D8ACD2441EF544370080E858 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D8ACD2461EF544370080E858 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8ACD24B1EF544370080E858 /* ace-drawing-demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ace-drawing-demoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8ACD24F1EF544370080E858 /* ace_drawing_demoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ace_drawing_demoTests.m; sourceTree = "<group>"; };
+		D8ACD2511EF544370080E858 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8ACD2561EF544370080E858 /* ace-drawing-demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ace-drawing-demoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8ACD25A1EF544370080E858 /* ace_drawing_demoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ace_drawing_demoUITests.m; sourceTree = "<group>"; };
+		D8ACD25C1EF544370080E858 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8ACD2681EF551600080E858 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		D8ACD26A1EF551650080E858 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		D8ACD27D1EF554DA0080E858 /* ImageDrawTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageDrawTool.h; sourceTree = "<group>"; };
+		D8ACD27E1EF554DA0080E858 /* ImageDrawTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageDrawTool.m; sourceTree = "<group>"; };
+		FCE72C7883CEEBD144433A22 /* libPods-ace-drawing-demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ace-drawing-demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D8ACD22F1EF544370080E858 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8ACD26B1EF551650080E858 /* AVFoundation.framework in Frameworks */,
+				D8ACD2691EF551600080E858 /* QuartzCore.framework in Frameworks */,
+				199490F3538387D23C22735B /* libPods-ace-drawing-demo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8ACD2481EF544370080E858 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8D8462A67A06AFE38D0B6DF /* libPods-ace-drawing-demoTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8ACD2531EF544370080E858 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3B7BCFE5409AEB3D6ADAE30 /* libPods-ace-drawing-demoUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B083791458C3F896C7065FA8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D8ACD26A1EF551650080E858 /* AVFoundation.framework */,
+				D8ACD2681EF551600080E858 /* QuartzCore.framework */,
+				FCE72C7883CEEBD144433A22 /* libPods-ace-drawing-demo.a */,
+				01C3B03858CC891B47CA2F74 /* libPods-ace-drawing-demoTests.a */,
+				8C786F67B544D6DEBB4B6EE1 /* libPods-ace-drawing-demoUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D8ACD2291EF544360080E858 = {
+			isa = PBXGroup;
+			children = (
+				D8ACD2341EF544370080E858 /* ace-drawing-demo */,
+				D8ACD24E1EF544370080E858 /* ace-drawing-demoTests */,
+				D8ACD2591EF544370080E858 /* ace-drawing-demoUITests */,
+				D8ACD2331EF544370080E858 /* Products */,
+				E3DCE037CAA84D208719425D /* Pods */,
+				B083791458C3F896C7065FA8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D8ACD2331EF544370080E858 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D8ACD2321EF544370080E858 /* ace-drawing-demo.app */,
+				D8ACD24B1EF544370080E858 /* ace-drawing-demoTests.xctest */,
+				D8ACD2561EF544370080E858 /* ace-drawing-demoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D8ACD2341EF544370080E858 /* ace-drawing-demo */ = {
+			isa = PBXGroup;
+			children = (
+				D8ACD2381EF544370080E858 /* AppDelegate.h */,
+				D8ACD2391EF544370080E858 /* AppDelegate.m */,
+				D8ACD23B1EF544370080E858 /* ViewController.h */,
+				D8ACD23C1EF544370080E858 /* ViewController.m */,
+				D8ACD27D1EF554DA0080E858 /* ImageDrawTool.h */,
+				D8ACD27E1EF554DA0080E858 /* ImageDrawTool.m */,
+				D8ACD23E1EF544370080E858 /* Main.storyboard */,
+				D8ACD2411EF544370080E858 /* Assets.xcassets */,
+				D8ACD2431EF544370080E858 /* LaunchScreen.storyboard */,
+				D8ACD2461EF544370080E858 /* Info.plist */,
+				D8ACD2351EF544370080E858 /* Supporting Files */,
+			);
+			path = "ace-drawing-demo";
+			sourceTree = "<group>";
+		};
+		D8ACD2351EF544370080E858 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D8ACD2361EF544370080E858 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D8ACD24E1EF544370080E858 /* ace-drawing-demoTests */ = {
+			isa = PBXGroup;
+			children = (
+				D8ACD24F1EF544370080E858 /* ace_drawing_demoTests.m */,
+				D8ACD2511EF544370080E858 /* Info.plist */,
+			);
+			path = "ace-drawing-demoTests";
+			sourceTree = "<group>";
+		};
+		D8ACD2591EF544370080E858 /* ace-drawing-demoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D8ACD25A1EF544370080E858 /* ace_drawing_demoUITests.m */,
+				D8ACD25C1EF544370080E858 /* Info.plist */,
+			);
+			path = "ace-drawing-demoUITests";
+			sourceTree = "<group>";
+		};
+		E3DCE037CAA84D208719425D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				844A5C7A038917318EB891A2 /* Pods-ace-drawing-demo.debug.xcconfig */,
+				0FCF4E9EAF241064CDE58788 /* Pods-ace-drawing-demo.release.xcconfig */,
+				A9718C86F2BA7826F133D70C /* Pods-ace-drawing-demoTests.debug.xcconfig */,
+				966E0202E17B48CFF512B5C8 /* Pods-ace-drawing-demoTests.release.xcconfig */,
+				A161D3E117C63161E8190E74 /* Pods-ace-drawing-demoUITests.debug.xcconfig */,
+				12FEF1B4F66A2B593633629A /* Pods-ace-drawing-demoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D8ACD2311EF544370080E858 /* ace-drawing-demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8ACD25F1EF544370080E858 /* Build configuration list for PBXNativeTarget "ace-drawing-demo" */;
+			buildPhases = (
+				B421441702ED612B1EB14EB3 /* [CP] Check Pods Manifest.lock */,
+				D8ACD22E1EF544370080E858 /* Sources */,
+				D8ACD22F1EF544370080E858 /* Frameworks */,
+				D8ACD2301EF544370080E858 /* Resources */,
+				EB06155925F89B3DD2A128ED /* [CP] Embed Pods Frameworks */,
+				058527EAB52DBDEADD426C75 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ace-drawing-demo";
+			productName = "ace-drawing-demo";
+			productReference = D8ACD2321EF544370080E858 /* ace-drawing-demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D8ACD24A1EF544370080E858 /* ace-drawing-demoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8ACD2621EF544370080E858 /* Build configuration list for PBXNativeTarget "ace-drawing-demoTests" */;
+			buildPhases = (
+				E4F718CE077360748FAA1872 /* [CP] Check Pods Manifest.lock */,
+				D8ACD2471EF544370080E858 /* Sources */,
+				D8ACD2481EF544370080E858 /* Frameworks */,
+				D8ACD2491EF544370080E858 /* Resources */,
+				3C1BFAC64A585270E9DFF875 /* [CP] Embed Pods Frameworks */,
+				DBC96056F87E36CC5FF9EE74 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D8ACD24D1EF544370080E858 /* PBXTargetDependency */,
+			);
+			name = "ace-drawing-demoTests";
+			productName = "ace-drawing-demoTests";
+			productReference = D8ACD24B1EF544370080E858 /* ace-drawing-demoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D8ACD2551EF544370080E858 /* ace-drawing-demoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8ACD2651EF544370080E858 /* Build configuration list for PBXNativeTarget "ace-drawing-demoUITests" */;
+			buildPhases = (
+				E549B20F1D313A50680DA479 /* [CP] Check Pods Manifest.lock */,
+				D8ACD2521EF544370080E858 /* Sources */,
+				D8ACD2531EF544370080E858 /* Frameworks */,
+				D8ACD2541EF544370080E858 /* Resources */,
+				6C1851DC1356BF6289B6C5E8 /* [CP] Embed Pods Frameworks */,
+				DE6552F9884D6E81AA9CA3C4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D8ACD2581EF544370080E858 /* PBXTargetDependency */,
+			);
+			name = "ace-drawing-demoUITests";
+			productName = "ace-drawing-demoUITests";
+			productReference = D8ACD2561EF544370080E858 /* ace-drawing-demoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D8ACD22A1EF544360080E858 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Jitendra P Maindola";
+				TargetAttributes = {
+					D8ACD2311EF544370080E858 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					D8ACD24A1EF544370080E858 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D8ACD2311EF544370080E858;
+					};
+					D8ACD2551EF544370080E858 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D8ACD2311EF544370080E858;
+					};
+				};
+			};
+			buildConfigurationList = D8ACD22D1EF544360080E858 /* Build configuration list for PBXProject "ace-drawing-demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D8ACD2291EF544360080E858;
+			productRefGroup = D8ACD2331EF544370080E858 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D8ACD2311EF544370080E858 /* ace-drawing-demo */,
+				D8ACD24A1EF544370080E858 /* ace-drawing-demoTests */,
+				D8ACD2551EF544370080E858 /* ace-drawing-demoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D8ACD2301EF544370080E858 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8ACD2451EF544370080E858 /* LaunchScreen.storyboard in Resources */,
+				D8ACD2421EF544370080E858 /* Assets.xcassets in Resources */,
+				D8ACD2401EF544370080E858 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8ACD2491EF544370080E858 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8ACD2541EF544370080E858 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		058527EAB52DBDEADD426C75 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ace-drawing-demo/Pods-ace-drawing-demo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3C1BFAC64A585270E9DFF875 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ace-drawing-demoTests/Pods-ace-drawing-demoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C1851DC1356BF6289B6C5E8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ace-drawing-demoUITests/Pods-ace-drawing-demoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B421441702ED612B1EB14EB3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DBC96056F87E36CC5FF9EE74 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ace-drawing-demoTests/Pods-ace-drawing-demoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE6552F9884D6E81AA9CA3C4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ace-drawing-demoUITests/Pods-ace-drawing-demoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4F718CE077360748FAA1872 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E549B20F1D313A50680DA479 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EB06155925F89B3DD2A128ED /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ace-drawing-demo/Pods-ace-drawing-demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D8ACD22E1EF544370080E858 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8ACD23D1EF544370080E858 /* ViewController.m in Sources */,
+				D8ACD27F1EF554DA0080E858 /* ImageDrawTool.m in Sources */,
+				D8ACD23A1EF544370080E858 /* AppDelegate.m in Sources */,
+				D8ACD2371EF544370080E858 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8ACD2471EF544370080E858 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8ACD2501EF544370080E858 /* ace_drawing_demoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8ACD2521EF544370080E858 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8ACD25B1EF544370080E858 /* ace_drawing_demoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D8ACD24D1EF544370080E858 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D8ACD2311EF544370080E858 /* ace-drawing-demo */;
+			targetProxy = D8ACD24C1EF544370080E858 /* PBXContainerItemProxy */;
+		};
+		D8ACD2581EF544370080E858 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D8ACD2311EF544370080E858 /* ace-drawing-demo */;
+			targetProxy = D8ACD2571EF544370080E858 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D8ACD23E1EF544370080E858 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8ACD23F1EF544370080E858 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D8ACD2431EF544370080E858 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8ACD2441EF544370080E858 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D8ACD25D1EF544370080E858 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D8ACD25E1EF544370080E858 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D8ACD2601EF544370080E858 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 844A5C7A038917318EB891A2 /* Pods-ace-drawing-demo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ace-drawing-demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "in.nexogen.ace-drawing-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D8ACD2611EF544370080E858 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FCF4E9EAF241064CDE58788 /* Pods-ace-drawing-demo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ace-drawing-demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "in.nexogen.ace-drawing-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D8ACD2631EF544370080E858 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9718C86F2BA7826F133D70C /* Pods-ace-drawing-demoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "ace-drawing-demoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "in.nexogen.ace-drawing-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ace-drawing-demo.app/ace-drawing-demo";
+			};
+			name = Debug;
+		};
+		D8ACD2641EF544370080E858 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 966E0202E17B48CFF512B5C8 /* Pods-ace-drawing-demoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "ace-drawing-demoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "in.nexogen.ace-drawing-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ace-drawing-demo.app/ace-drawing-demo";
+			};
+			name = Release;
+		};
+		D8ACD2661EF544370080E858 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A161D3E117C63161E8190E74 /* Pods-ace-drawing-demoUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = "ace-drawing-demoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "in.nexogen.ace-drawing-demoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "ace-drawing-demo";
+			};
+			name = Debug;
+		};
+		D8ACD2671EF544370080E858 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12FEF1B4F66A2B593633629A /* Pods-ace-drawing-demoUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = "ace-drawing-demoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "in.nexogen.ace-drawing-demoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "ace-drawing-demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D8ACD22D1EF544360080E858 /* Build configuration list for PBXProject "ace-drawing-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8ACD25D1EF544370080E858 /* Debug */,
+				D8ACD25E1EF544370080E858 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8ACD25F1EF544370080E858 /* Build configuration list for PBXNativeTarget "ace-drawing-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8ACD2601EF544370080E858 /* Debug */,
+				D8ACD2611EF544370080E858 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8ACD2621EF544370080E858 /* Build configuration list for PBXNativeTarget "ace-drawing-demoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8ACD2631EF544370080E858 /* Debug */,
+				D8ACD2641EF544370080E858 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8ACD2651EF544370080E858 /* Build configuration list for PBXNativeTarget "ace-drawing-demoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8ACD2661EF544370080E858 /* Debug */,
+				D8ACD2671EF544370080E858 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D8ACD22A1EF544360080E858 /* Project object */;
+}
